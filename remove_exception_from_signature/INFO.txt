@@ -1,0 +1,6 @@
+# how to remove "throws Exception" from method
+
+# edit hex A.class
+00 0100 0b00 0600 02 -> 00 0100 0b00 0600 01
+
+000c 0000 0004 0001 000d  -> remove

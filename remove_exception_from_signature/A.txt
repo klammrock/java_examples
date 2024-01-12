@@ -1,0 +1,52 @@
+Classfile /home/klamm/projects/java/examples/remove_exception_from_signature/A.class
+  Last modified Jan 12, 2024; size 272 bytes
+  SHA-256 checksum 282b607c3aa3b20581fd05c92fcafe250ce2dd4fbbec035607eb0967bba9cc65
+  Compiled from "A.java"
+public class A
+  minor version: 0
+  major version: 65
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #7                          // A
+  super_class: #2                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 1
+Constant pool:
+   #1 = Methodref          #2.#3          // java/lang/Object."<init>":()V
+   #2 = Class              #4             // java/lang/Object
+   #3 = NameAndType        #5:#6          // "<init>":()V
+   #4 = Utf8               java/lang/Object
+   #5 = Utf8               <init>
+   #6 = Utf8               ()V
+   #7 = Class              #8             // A
+   #8 = Utf8               A
+   #9 = Utf8               Code
+  #10 = Utf8               LineNumberTable
+  #11 = Utf8               method
+  #12 = Utf8               Exceptions
+  #13 = Class              #14            // java/lang/Exception
+  #14 = Utf8               java/lang/Exception
+  #15 = Utf8               SourceFile
+  #16 = Utf8               A.java
+{
+  public A();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 1: 0
+
+  public void method() throws java.lang.Exception;
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LineNumberTable:
+        line 3: 0
+    Exceptions:
+      throws java.lang.Exception
+}
+SourceFile: "A.java"
